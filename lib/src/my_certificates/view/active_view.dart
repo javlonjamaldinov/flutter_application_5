@@ -19,7 +19,7 @@ class ActiveView extends StatelessWidget {
                 buildPromotionCard(),
                 Container(
                   width: double.infinity,
-                  height: 10.5.h,
+                  height: 13.h,
                   decoration: ShapeDecoration(
                     color: Colors.white,
                     shape: RoundedRectangleBorder(
@@ -81,12 +81,12 @@ class ActiveView extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(height: 0.8.h),
+                        SizedBox(height: 0.5.h),
                         Text(
-                          '- - - - - - - - - - - - - - - - - - - -',
+                          '- - - - - - - - - - - - - - - - - - ',
                           style: TextStyle(
-                            color: Colors.grey, // Цвет разделителя
-                            fontSize: 16, // Размер шрифта
+                            color: Colors.grey,
+                            fontSize: 16,
                             letterSpacing: 2,
                             fontWeight: FontWeight.w400,
                           ),
@@ -98,7 +98,7 @@ class ActiveView extends StatelessWidget {
                 ),
                 Container(
                   width: double.infinity,
-                  height: 7.h,
+                  height: 7.9.h,
                   decoration: ShapeDecoration(
                     color: Colors.white,
                     shape: RoundedRectangleBorder(
