@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Добавление запросов на доступ к геолокации -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Это приложение использует ваше местоположение, чтобы предоставить персонализированные услуги.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Это приложение всегда может использовать ваше местоположение, чтобы улучшить функциональность.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Это приложение требует доступа к вашему местоположению как во время использования, так и в фоновом режиме.</string>
 </dict>
 </plist>
