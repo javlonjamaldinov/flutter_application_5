@@ -15,9 +15,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
   final items = List.generate(
     20,
     (index) => {
-      "title": index % 2 == 0
-          ? "Mango кофейня"
-          : "Sierra", // Названия кафе
+      "title": index % 2 == 0 ? "Mango кофейня" : "Sierra", // Названия кафе
       "subtitle": index % 2 == 0
           ? "50 приветственных баллов"
           : "30 приветственных баллов", // Тексты для кафе
@@ -253,8 +251,8 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                           setState(() {
                             _filteredItems = items.where((item) {
                               return item["title"]!
-                                  .toLowerCase()
-                                  .contains(text.toLowerCase()) ||
+                                      .toLowerCase()
+                                      .contains(text.toLowerCase()) ||
                                   item["subtitle"]!
                                       .toLowerCase()
                                       .contains(text.toLowerCase());
